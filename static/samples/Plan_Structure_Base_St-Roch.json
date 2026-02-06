@@ -1,0 +1,230 @@
+{
+  "doc_status": "ok",
+  "document_name": "Base de béton pour une enseigne - S-100",
+  "items": [
+    {
+      "item_id": 1,
+      "diameter": "15M",
+      "shape": "L",
+      "count": 12,
+      "legs_ft_in": [
+        "7'-0\"",
+        "1'-4\""
+      ],
+      "stirrup_dims_ft_in": null,
+      "explicit_length_ft_in": null,
+      "formula_hint": "a + b",
+      "page": "NAN",
+      "raw_label": "1 2 - 1 5 M e n",
+      "dimensions_raw": "7'- 0\" x 1'- 4\"",
+      "spacing_raw": null,
+      "estimation_method": "from_label",
+      "evidence_text_raw": [
+        "1 2 - 1 5 M e n",
+        "f or m e d e \" L\"",
+        "7'- 0\" x 1'- 4\""
+      ],
+      "source_view_hint": [
+        "Vue en plan du détail des armatures",
+        "Vue en élévation du détail des armatures"
+      ],
+      "notes": "Groupe de barres en L côté gauche. Longueur unitaire = a + b. Éviter le double comptage avec les vues d’élévation/profil et avec l’annotation cumulée \"2 4 - 1 5 M ...\".",
+      "evidence_text_norm": [
+        "12 - 15Men",
+        "formede \" L\"",
+        "7'- 0\" x1'- 4\""
+      ],
+      "unit_length_in_final": 100.0,
+      "unit_length_ft_in_final": "8'-4\""
+    },
+    {
+      "item_id": 2,
+      "diameter": "15M",
+      "shape": "L",
+      "count": 12,
+      "legs_ft_in": [
+        "7'-0\"",
+        "1'-4\""
+      ],
+      "stirrup_dims_ft_in": null,
+      "explicit_length_ft_in": null,
+      "formula_hint": "a + b",
+      "page": "NAN",
+      "raw_label": "1 2 - 1 5 M e n",
+      "dimensions_raw": "7'- 0\" x 1'- 4\"",
+      "spacing_raw": null,
+      "estimation_method": "from_label",
+      "evidence_text_raw": [
+        "1 2 - 1 5 M e n",
+        "f or m e d e \" L\"",
+        "7'- 0\" x 1'- 4\""
+      ],
+      "source_view_hint": [
+        "Vue en plan du détail des armatures",
+        "Vue en élévation du détail des armatures"
+      ],
+      "notes": "Groupe de barres en L côté droit. Longueur unitaire = a + b. Compté séparément du groupe gauche. Ne pas additionner à l’annotation \"2 4 - 1 5 M ...\" qui est cumulative.",
+      "evidence_text_norm": [
+        "12 - 15Men",
+        "formede \" L\"",
+        "7'- 0\" x1'- 4\""
+      ],
+      "unit_length_in_final": 100.0,
+      "unit_length_ft_in_final": "8'-4\""
+    },
+    {
+      "item_id": 3,
+      "diameter": "10M",
+      "shape": "stirrup",
+      "count": 6,
+      "legs_ft_in": null,
+      "stirrup_dims_ft_in": [
+        "3'-0\"",
+        "4'-8\""
+      ],
+      "explicit_length_ft_in": null,
+      "formula_hint": "2*(a + b)",
+      "page": "NAN",
+      "raw_label": "Étri er e n 1 0 M d e 3'- 0 \" x 4' 8\" @ 1 2\" c/ c",
+      "dimensions_raw": "3'- 0 \" x 4' 8\"",
+      "spacing_raw": "@ 1 2\" c/ c",
+      "estimation_method": "visual_count_elevation",
+      "evidence_text_raw": [
+        "Étri er e n 1 0 M d e 3'- 0 \" x 4' 8\" @ 1 2\" c/ c"
+      ],
+      "source_view_hint": [
+        "Vue en plan du détail des armatures",
+        "Vue en élévation du détail des armatures"
+      ],
+      "notes": "Petit étrier pour le groupe gauche. Comptage visuel ≈ 6 pièces sur l’élévation. Alternative d’estimation: H/E + 1 avec H ≈ 7'-0\" et E = 12\" ⇒ ≈ 8 (non retenu). Longueur unitaire = 2*(a+b).",
+      "evidence_text_norm": [
+        "Étrieren10Mde3'- 0 \" x4' 8\" @ 12\" c/ c"
+      ],
+      "unit_length_in_final": 184.0,
+      "unit_length_ft_in_final": "15'-4\""
+    },
+    {
+      "item_id": 4,
+      "diameter": "10M",
+      "shape": "stirrup",
+      "count": 6,
+      "legs_ft_in": null,
+      "stirrup_dims_ft_in": [
+        "3'-0\"",
+        "4'-8\""
+      ],
+      "explicit_length_ft_in": null,
+      "formula_hint": "2*(a + b)",
+      "page": "NAN",
+      "raw_label": "Étri er e n 1 0 M d e 3'- 0 \" x 4' 8\" @ 1 2\" c/ c",
+      "dimensions_raw": "3'- 0 \" x 4' 8\"",
+      "spacing_raw": "@ 1 2\" c/ c",
+      "estimation_method": "visual_count_elevation",
+      "evidence_text_raw": [
+        "Étri er e n 1 0 M d e 3'- 0 \" x 4' 8\" @ 1 2\" c/ c"
+      ],
+      "source_view_hint": [
+        "Vue en plan du détail des armatures",
+        "Vue en élévation du détail des armatures"
+      ],
+      "notes": "Petit étrier pour le groupe droit. Comptage visuel ≈ 6 pièces sur l’élévation. Longueur unitaire = 2*(a+b).",
+      "evidence_text_norm": [
+        "Étrieren10Mde3'- 0 \" x4' 8\" @ 12\" c/ c"
+      ],
+      "unit_length_in_final": 184.0,
+      "unit_length_ft_in_final": "15'-4\""
+    },
+    {
+      "item_id": 5,
+      "diameter": "10M",
+      "shape": "stirrup",
+      "count": 6,
+      "legs_ft_in": null,
+      "stirrup_dims_ft_in": [
+        "11'-4\"",
+        "3'-0\""
+      ],
+      "explicit_length_ft_in": null,
+      "formula_hint": "2*(a + b)",
+      "page": "NAN",
+      "raw_label": "Étri er e n 1 0 M d e 1 1'- 4\" x 3'- 0 \" @ 1 2\" c/ c",
+      "dimensions_raw": "1 1'- 4\" x 3'- 0 \"",
+      "spacing_raw": "@ 1 2\" c/ c",
+      "estimation_method": "visual_count_elevation",
+      "evidence_text_raw": [
+        "Étri er e n 1 0 M d e 1 1'- 4\" x 3'- 0 \" @ 1 2\" c/ c"
+      ],
+      "source_view_hint": [
+        "Vue en plan du détail des armatures",
+        "Vue en élévation du détail des armatures"
+      ],
+      "notes": "Grand étrier (ceinture sur la grande dimension). Comptage visuel ≈ 6 pièces sur l’élévation. Longueur unitaire = 2*(a+b).",
+      "evidence_text_norm": [
+        "Étrieren10Mde11'- 4\" x3'- 0 \" @ 12\" c/ c"
+      ],
+      "unit_length_in_final": 344.0,
+      "unit_length_ft_in_final": "28'-8\""
+    },
+    {
+      "item_id": 6,
+      "diameter": "15M",
+      "shape": "straight",
+      "count": 14,
+      "legs_ft_in": null,
+      "stirrup_dims_ft_in": null,
+      "explicit_length_ft_in": null,
+      "formula_hint": null,
+      "page": "NAN",
+      "raw_label": "1 5 M @ 1 2\" c/ c",
+      "dimensions_raw": null,
+      "spacing_raw": "@ 1 2\" c/ c",
+      "estimation_method": "visual_count_elevation",
+      "evidence_text_raw": [
+        "1 5 M @ 1 2\" c/ c"
+      ],
+      "source_view_hint": [
+        "Vue en élévation du détail des armatures"
+      ],
+      "notes": "Barres droites direction courte (élévation). Longueur unitaire déduite de la géométrie: 4'-8\" + 2×1'-4\". Comptage visuel ≈ 14 sur l’élévation. Ne pas confondre avec le groupe orthogonal en profil.",
+      "evidence_text_norm": [
+        "15M @ 12\" c/ c"
+      ],
+      "unit_length_in_final": "NAN",
+      "unit_length_ft_in_final": "NAN"
+    },
+    {
+      "item_id": 7,
+      "diameter": "15M",
+      "shape": "straight",
+      "count": 8,
+      "legs_ft_in": null,
+      "stirrup_dims_ft_in": null,
+      "explicit_length_ft_in": null,
+      "formula_hint": null,
+      "page": "NAN",
+      "raw_label": "1 5 M @ 1 2\" c/ c",
+      "dimensions_raw": null,
+      "spacing_raw": "@ 1 2\" c/ c",
+      "estimation_method": "visual_count_profile",
+      "evidence_text_raw": [
+        "1 5 M @ 1 2\" c/ c"
+      ],
+      "source_view_hint": [
+        "Vue de profil du détail des armatures"
+      ],
+      "notes": "Barres droites direction longue (profil). Longueur unitaire déduite: 11'-4\" + 2×1'-4\". Comptage visuel ≈ 8 sur le profil. Groupe distinct de celui vu en élévation.",
+      "evidence_text_norm": [
+        "15M @ 12\" c/ c"
+      ],
+      "unit_length_in_final": "NAN",
+      "unit_length_ft_in_final": "NAN"
+    }
+  ],
+  "warnings": [
+    "Annotations répétées sur plusieurs vues (plan/élévation/profil). Les groupes ont été consolidés pour éviter tout double comptage.",
+    "L’annotation \"2 4 - 1 5 M e n f or m e d e \" L\" d e 7'- 0\" x 1'- 4\"\" est interprétée comme cumul des deux groupes de 12; non comptée séparément.",
+    "Comptages visuels réalisés sur image de faible résolution; à confirmer sur le PDF original (peut affecter surtout les quantités d’étriers et des barres @12\" c/c).",
+    "Item 6: impossible de calculer unit_length_ft_in_final (dimensions manquantes ou non parsables).",
+    "Item 7: impossible de calculer unit_length_ft_in_final (dimensions manquantes ou non parsables)."
+  ]
+}

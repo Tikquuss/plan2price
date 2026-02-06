@@ -1,0 +1,5 @@
+openai 
+pandas
+pydantic
+pymupdf
+streamlit
